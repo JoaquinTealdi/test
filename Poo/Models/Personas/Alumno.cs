@@ -11,6 +11,15 @@ namespace Poo.Models.Personas
     {
         public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
+        public Alumno()
+        {
+                
+        }
+
+        public Alumno(string nombre)
+        {
+            Nombre = nombre;
+        }
         public string getNombre()
         {
             throw new NotImplementedException();
