@@ -11,17 +11,15 @@ namespace Poo.Models.Personas
     {
         public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Apellido { get; set; }
-        public int Edad { get; set; }
         public Profesor()
         {
                 
         }
 
-        public Profesor(string nombre, string apellido, int edad)
+        public Profesor(string nombre, string apellido)
         {
             Nombre = nombre;
             Apellido = apellido;
-            Edad = edad;
         }
         public string getNombre()
         {
