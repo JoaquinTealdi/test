@@ -25,7 +25,9 @@ namespace Poo.Models.Personas
         }
         public string getNombre()
         {
-            throw new NotImplementedException();
+            var nombre = $"el nombre es {Nombre}";
+
+            return nombre;
         }
 
         public string setNombre()
