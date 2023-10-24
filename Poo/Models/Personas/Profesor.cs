@@ -25,12 +25,16 @@ namespace Poo.Models.Personas
         }
         public string getNombre()
         {
-            throw new NotImplementedException();
+            var nombre = $"el nombre es {Nombre}";
+
+            return nombre;
         }
 
-        public string setNombre()
+        public string setNombre(string nombre)
         {
-            throw new NotImplementedException();
+            Nombre = nombre;
+            var mensaje = $"se ha asignado el nombre '{nombre}' al profesor";
+            return mensaje;
         }
     }
 }
