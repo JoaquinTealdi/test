@@ -10,6 +10,6 @@ namespace Poo.Models.Personas.Contratos
     {
         public string Nombre { get; set; }
         public string getNombre();
-        public string setNombre();
+        public string setNombre(string nombre);
     }
 }
